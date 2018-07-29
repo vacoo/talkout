@@ -1,6 +1,7 @@
 $.ajax({
     method: "GET",
     url: "config.json",
+    dataType: "json",
     complete: function(response) {
         var config = response.responseJSON;
         $("#js-target").html(config.target);
