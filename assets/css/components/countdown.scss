@@ -1,0 +1,32 @@
+.countdown {
+
+  text-align: center;
+  padding: 50px 0;
+
+  &__label {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 11px;
+    }
+  }
+
+  &__target {
+    font-size: 25px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 14px;
+    }
+  }
+
+  &__clock {
+    font-size: 40px;
+    font-weight: bold;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 18px;
+    }
+  }
+}

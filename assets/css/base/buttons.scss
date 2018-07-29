@@ -1,0 +1,32 @@
+.btn {
+  background: linear-gradient(#FFF, #FFF);
+  padding: 12px 20px;
+  border: 1px solid #FFF;
+  border-radius: 2px;
+  font-size: 12px;
+  font-family: 'Open Sans Bold', 'Times New Roman', sans-serif;
+  transition: 0.2s;
+
+  &:hover {
+    cursor: pointer;
+    background: linear-gradient(#FFF, #e8e8e8);
+  }
+}
+.btn-success {
+  background: linear-gradient($color-success, $color-success);
+  transition: 0.2s;
+  color: #FFF;
+  border: 1px solid $color-success;
+
+  &:hover {
+    background: linear-gradient($color-success, darken($color-success, 5));
+  }
+
+  &[data-muted=true] {
+    background: linear-gradient(gray, gray);
+    border-color: gray;
+  }
+}
+.btn-small {
+  max-width: 100px;
+}

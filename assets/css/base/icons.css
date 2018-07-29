@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "icons";
+  src: url('../../assets/fonts/icons.eot');
+  src: url('../../assets/fonts/icons.eot?#iefix') format('eot'),
+      url('../../assets/fonts/icons.woff2') format('woff2'),
+      url('../../assets/fonts/icons.woff') format('woff'),
+      url('../../assets/fonts/icons.ttf') format('truetype'),
+      url('../../assets/fonts/icons.svg#icons') format('svg');
+}
+
+.icons:before {
+  font-family: "icons";
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+}
+
+
+.icons-archive:before {
+  content: "\EA01";
+}
+
+.icons-check:before {
+  content: "\EA02";
+}
+
+.icons-clock-square:before {
+  content: "\EA03";
+}
+
+.icons-clock:before {
+  content: "\EA04";
+}
+
+.icons-close:before {
+  content: "\EA05";
+}
+
+.icons-email:before {
+  content: "\EA06";
+}
+
+.icons-folder:before {
+  content: "\EA07";
+}
+
+.icons-letter:before {
+  content: "\EA08";
+}
+
+.icons-lock:before {
+  content: "\EA09";
+}
+
+.icons-logo:before {
+  content: "\EA0A";
+}
+
+.icons-money-percent:before {
+  content: "\EA0B";
+}
+
+.icons-paper-pencil:before {
+  content: "\EA0C";
+}
+
+.icons-phone:before {
+  content: "\EA0D";
+}
+
+.icons-pig:before {
+  content: "\EA0E";
+}
+
+.icons-point:before {
+  content: "\EA0F";
+}
+
+.icons-quote:before {
+  content: "\EA10";
+}
+
+.icons-scroll-pen:before {
+  content: "\EA11";
+}
+
+.icons-stop:before {
+  content: "\EA12";
+}
+
+.icons-table-checkbox:before {
+  content: "\EA13";
+}
+
+.icons-tax-cut:before {
+  content: "\EA14";
+}
+
+.icons-tax:before {
+  content: "\EA15";
+}

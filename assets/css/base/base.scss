@@ -1,0 +1,45 @@
+// @font-face {
+//     font-family: 'Open Sans';
+//     src: url('../fonts/open_sans.woff')
+// }
+// @font-face {
+//     font-family: 'Open Sans Bold';
+//     src: url('../fonts/OpenSans-Bold.woff')
+// }
+// @font-face {
+//     font-family: 'Open Sans Light';
+//     src: url('../fonts/OpenSans-Light.woff')
+// }
+html, body {
+    height: 100%;
+
+    @include media-breakpoint-down(sm) {
+        height: 100%;
+    }
+}
+body {
+    font-family: 'Arial', 'Times New Roman', sans-serif;
+    font-size: 1em;
+    position: relative;
+    background: -moz-linear-gradient(330deg, rgba(250,99,106,1) 0%, rgba(141,17,198,1) 48%, rgba(63,169,245,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(250,99,106,1)), color-stop(48%, rgba(141,17,198,1)), color-stop(100%, rgba(63,169,245,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(330deg, rgba(250,99,106,1) 0%, rgba(141,17,198,1) 48%, rgba(63,169,245,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(330deg, rgba(250,99,106,1) 0%, rgba(141,17,198,1) 48%, rgba(63,169,245,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(330deg, rgba(250,99,106,1) 0%, rgba(141,17,198,1) 48%, rgba(63,169,245,1) 100%); /* ie10+ */
+    background: linear-gradient(120deg, rgba(250,99,106,1) 0%, rgba(141,17,198,1) 48%, rgba(63,169,245,1) 100%); /* w3c */
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FA636A', endColorstr='#3FA9F5',GradientType=1 ); /* ie6-9 */
+    color: #FFF;
+}
+.container {
+    max-width: 900px;
+}
+img {
+    max-width: 100%;
+}
+.hide {
+    display: none;
+}
+.icons {
+    position: relative;
+    top: 2px;
+}

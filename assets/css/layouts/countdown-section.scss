@@ -1,0 +1,36 @@
+.countdown-section {
+
+  padding-top: 15px;
+
+  .head-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Arial';
+    margin-top: 15px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    @include media-breakpoint-between(sm, md) {
+      
+    }
+  }
+  .logo {
+    max-width: 50px;
+    border-radius: 10px;
+
+    @include media-breakpoint-between(sm, md) {
+      max-width: 50px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      max-width: 100%;
+    }
+
+    @include media-breakpoint-up(sm) {
+      max-width: 100%;
+    }
+  }
+}
